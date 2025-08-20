@@ -18,7 +18,7 @@ from docx import Document
 from docx.shared import Mm
 from docx.shared import Pt
 
-TOKEN = '5586469653:AAHF4JB8DQYgDQza5a7E_c7NJgORCnnxKa4'
+TOKEN = ''
 bot = Bot(token=TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 
@@ -445,4 +445,5 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         print('Бот выключен')
